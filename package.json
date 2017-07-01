@@ -4,7 +4,7 @@
   "description": "Provides a simple train times REST service backed by OpenLDBWS.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha lib/**/**.spec.js"
+    "test": "mocha test/**/**.spec.js"
   },
   "author": "Tim Gage",
   "license": "ISC",
@@ -12,6 +12,10 @@
     "chai": "^4.0.2",
     "mocha": "^3.4.2"
   },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "dependencies": {
     "needle": "^1.6.0",
     "xml2js": "^0.4.17"
